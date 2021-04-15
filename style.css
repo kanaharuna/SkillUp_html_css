@@ -40,7 +40,7 @@ nav {
   color: #fafafa;
 }
 
-.main-visual {
+#main-visual {
   height: 650px;
   background-image: url(スキルアップ_img/mv.png);
   background-size: cover;
@@ -63,10 +63,10 @@ nav {
   color: #fafafa;
 }
 
-.portfolio,
-.feature,
-.profile,
-.contact {
+#portfolio,
+#feature,
+#profile,
+#contact {
   width: 100%;
   text-align: center;
 }
@@ -91,8 +91,8 @@ nav {
   margin-bottom: 30px;
 }
 
-.portfolio,
-.profile {
+#portfolio,
+#profile {
   background-color: #eceff1;
 }
 
@@ -234,6 +234,7 @@ nav {
 
 .contact-information {
   width: 400px;
+  justify-content: center;
 }
 
 .contact-information-title,
@@ -268,14 +269,15 @@ nav {
   margin-right: 0;
 }
 
-footer{
-  width:100%;
-  height:60px;
+footer {
+  width: 100%;
+  height: 60px;
   text-align: center;
-  background-color:#ec715f;
+  background-color: #ec715f;
 }
 
-footer span{
-  color:#FAFAFA;
-  line-height: 70px;
+footer p {
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 60px;
 }
