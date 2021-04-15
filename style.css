@@ -1,0 +1,281 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 1024px;
+  display: flex;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav-list {
+  margin-left: auto;
+  font-size: 0;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  line-height: 70px;
+  font-size: 16px;
+  margin: 0 30px;
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.main-visual {
+  height: 650px;
+  background-image: url(スキルアップ_img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.main-visual-name {
+  font-size: 64px;
+  padding-bottom: 10px;
+  color: #fafafa;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.portfolio,
+.feature,
+.profile,
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+}
+
+.title-line {
+  border: none;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  margin: 8px auto 30px;
+}
+
+.caption-text {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.portfolio,
+.profile {
+  background-color: #eceff1;
+}
+
+.portfolio-content {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.portfolio-box {
+  width: 300px;
+  height: 250px;
+}
+
+.portfolio-box:nth-child(2),
+.portfolio-box:nth-child(5) {
+  margin: 0 10px;
+}
+
+.portfolio-box:nth-child(-n + 3) {
+  margin-bottom: 10px;
+}
+
+.portfolio-box:nth-last-child(-n + 3) {
+  margin-bottom: 90px;
+}
+
+.image1 {
+  background-image: url(スキルアップ_img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image2 {
+  background-image: url(スキルアップ_img/websuku.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.image3 {
+  background-image: url(スキルアップ_img/write.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image4 {
+  background-image: url(スキルアップ_img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.image5 {
+  background-image: url(スキルアップ_img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image6 {
+  background-image: url(スキルアップ_img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-content {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.feature-caption {
+  width: 320px;
+  height: auto;
+  margin-bottom: 90px;
+  margin-right: 10px;
+}
+
+.feature-caption:last-child {
+  margin-right: 0;
+}
+
+.feature-caption i {
+  font-size: 60px;
+}
+
+.feature-caption-title {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.feature-caption-text {
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.profile-icon {
+  width: 512px;
+}
+.profile-icon img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.profile-text {
+  width: 512px;
+}
+
+.profile-text-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-text-body {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.profile-text-title,
+.profile-text-body {
+  text-align: left;
+}
+
+.contact-content {
+  width: 800px;
+  margin: 0 auto 90px;
+  display: flex;
+}
+
+.contact-information {
+  width: 400px;
+}
+
+.contact-information-title,
+.social-information-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.contact-information-title,
+.contact-information-body {
+  text-align: left;
+}
+
+.contact-information-body a {
+  color: #000000;
+}
+
+.contact-information-body {
+  margin-bottom: 20px;
+}
+
+.social-information {
+  width: 400px;
+  text-align: left;
+}
+
+.social-information i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.social-information:last-child {
+  margin-right: 0;
+}
+
+footer{
+  width:100%;
+  height:60px;
+  text-align: center;
+  background-color:#ec715f;
+}
+
+footer span{
+  color:#FAFAFA;
+  line-height: 70px;
+}
